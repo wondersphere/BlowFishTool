@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file was created by NSISDialogDesigner 1.5.0.0
+https://coolsoft.altervista.org/nsisdialogdesigner
+Do not edit manually!
+-->
+<Dialog Name="BF_GUI" Title="Encrypt / Decrypt Using Blowfish">
+  <TextBox Name="txt_Base64Key" Location="87, 12" Size="299, 20" TabIndex="0" Style="WS_TABSTOP" />
+  <TextBox Name="txt_SecretStr" Location="87, 38" Size="299, 62" TabIndex="1" Multiline="True" Style="WS_TABSTOP, WS_HSCROLL, WS_VSCROLL" />
+  <TextBox Name="txt_SecretResult" Location="87, 106" Size="299, 62" ReadOnly="True" TabIndex="2" Multiline="True" Style="WS_TABSTOP, WS_HSCROLL, WS_VSCROLL" />
+  <CheckBox Name="chk_Decrypt" Location="87, 180" Text="Decrypt" TabIndex="3" Style="WS_TABSTOP" />
+  <Button Name="btn_Run" Location="242, 175" Size="144, 33" Text="Run and Save to File" TabIndex="4" Style="WS_TABSTOP" onClick="encrypt_decrypt" />
+  <Label Name="lbl_Base64Key" Location="12, 12" Size="69, 20" Text="Base64 Key" Font="Microsoft Sans Serif, 8.25pt" TabIndex="5" />
+  <Label Name="lbl_SecretStr" Location="12, 38" Size="69, 20" Text="String" Font="Microsoft Sans Serif, 8.25pt" TabIndex="6" />
+  <Label Name="lbl_Result" Location="12, 106" Size="69, 20" Text="Result" Font="Microsoft Sans Serif, 8.25pt" TabIndex="7" />
+</Dialog>
